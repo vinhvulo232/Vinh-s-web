@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bài tập của Vinh</title>
+	<link rel="icon" type="image/x-icon" href="FAV.jpg">
+	<style>
+		td.solid{
+			border-style: solid;
+		}
+		body{
+			background-image: url("Don_background.gif");
+			background-size:10%;
+			font-family: arial;
+			height: 200vh;
+			}
+		header{
+			background-color: rgba(0, 0, 0, 0.85);
+			padding:20px;
+			text-align: center;
+			font-size: 20px;
+
+		}
+		a:link{
+			color:white;
+			background-color:transparent;
+			text-decoration:none;
+		}
+		a:visited{
+			color: white;
+			background-color:transparent;
+			text-decoration: underline;
+		}
+		a:hover{
+			color: whitesmoke;
+			background-color: transparent;
+			text-decoration: underline;
+		}
+		section::after{
+			content: "";
+			display: table;
+			clear:both;
+		}
+		article{
+			width: 40%;
+			float: right;
+			position: absolute;
+			right:25px;
+			
+		}
+		article table{
+			background-color: black;
+			padding: 10px;
+			width: 30%;
+			border-style: solid;
+			border-color: darkred;
+			border-width: 5px;
+			box-sizing: border-box;
+			object-fit: cover;
+		}
+		[data-title]:hover:after{
+			opacity: 1;
+			transition: all 0.1s ease 0.5s;
+			visibility: visible;
+		}
+		[data-title]:after{
+			content: attr(data-title);
+			background-color: rgba(195, 138, 91, 0.8);
+			color:white;
+			font-weight: 100;
+			font-size: 100%;
+			position: absolute;
+			white-space: nowrap;
+			opacity: 0;
+			visibility: hidden;
+			z-index: 99999;
+			padding: 1px 10px 2px 5px;
+			left:-400px;
+			top:13px;
+			text-align: left;
+
+		}
+		[data-title]{
+			position: relative;
+		}
+		nav{
+			background-color: rgba(0, 0, 0, 0.77);
+			float:left;
+			width: 8%;
+			height: 130px;
+			font-size: 20px;
+			border-color: darkred ;
+			border-width: 1px;
+		}
+		nav ul{
+			list-style-type: none;
+			padding: 0px;
+		}
+		nav ul li{
+			float :left ;
+			padding: 5px ;
+		}
+		.p{
+
+		}
+	</style>
+</head>
+<body>
+<header><a href="web.html" style="color: yellow;"><p title="Trang chủ"> LIMBUS <br> COMPANY</a></p></header>
+<div style="width: fit-content;">
+<div class="skillgrad-font" style="font-family:Mikodacs;color:#eecea4; margin-bottom:5px;padding:2px;width:100%; background-image:linear-gradient(255deg,transparent 1.5em,#4f3f06 1.5em)" >
+	<div style="text-shadow: 2px 2px 2px black,0px -0.5px black,-0.5px 0px black,0.5px 0px black,-0.5px -0.4px black;padding:0px 10px;text-align:left;background-image:linear-gradient(290deg,transparent 2.5em, #f7c729 2.5em, #f7c729 2.65em, transparent 2.65em, transparent 2.8em, #f7c729 2.8em, #f7c729 2.95em, transparent 2.95em, transparent 3.1em, #f7c729 3.1em, #f7c729 3.25em, transparent 3.25em, transparent 3.4em, #f7c729 3.4em)">
+		<span style="margin-right:3em; font-size: 20px;"><b>NỘI DUNG</b></span>
+	</div>
+</div>
+</div>
+<section>
+	<nav>
+		<ul style="color:white" style="width: fit-content;"> 
+			<li><a href="gioithieu.html"> Giới thiệu</a></li>	
+			<li><a href="https://limbuscompany.wiki.gg/wiki/Wild_Hunt_Heathcliff"> Cảm hứng </a> </li>
+		</ul>
+	</nav>
+	<article>
+		<table>
+			<tbody>
+				<tr>
+					<td style="vertical-align: top; text-align: center;" >
+						<div class="skillicon" style="position:relative;left:-7px;width:112px;margin:0 -10px;margin-right:-15px;margin-top:-17px;">
+							<div style="position:relative;top:0;left:0;width:112px;z-index:3;pointer-events: none;">
+								<img src="Wrath1frame.jpg" decoding="async" loading="lazy" width="112" height="112">
+							</div>
+							<div style="position:absolute;top:13.3px;left:13.3px;z-index:2;margin-left:5.3px;margin-top:12.8px;clip-path:polygon(73% 2%, 98% 36%,90% 80%,50% 100%,10% 80%,2% 36%,27% 2%)">
+								<img src="Beheading.jpg" decoding="async" loading="lazy" width="74" height="74">
+							</div>
+							<div style="position: absolute;z-index:1; top: 0; left: 0; width: 112px;">
+								<img src="Wrath1.jpg" decoding="async" loading="lazy" width="112" height="112">
+							</div>
+							<b style="color:white;">3</b>
+							<img src="Slash.jpg" decoding="async" loading="lazy" width="25" height="25">
+							<b style="color:white; ">+ 4</b>
+						</div>
+					</td>
+						<td rowspan="2">
+							<div style="width: 220px;">
+								<img src="coin.jpg" decoding="async" loading="lazy" width="26" height="25">
+								<img src="coin.jpg" decoding="async" loading="lazy" width="26" height="25">
+								<div class="skillgrad-font" style="font-family:Mikodacs;color:#eecea4; margin-bottom:5px;padding:2px;width:100%; background-image:linear-gradient(255deg,transparent 1.5em,darkred 1.5em)" >
+								<div style="text-shadow: 2px 2px 2px black,0px -0.5px black,-0.5px 0px black,0.5px 0px black,-0.5px -0.4px black;padding:0px 10px;text-align:left;background-image:linear-gradient(290deg,transparent 2.5em, red 2.5em, red 2.65em, transparent 2.65em, transparent 2.8em, red 2.8em, red 2.95em, transparent 2.95em, transparent 3.1em, red 3.1em, red 3.25em, transparent 3.25em, transparent 3.4em, red 3.4em)">
+									<span style="margin-right:3em; font-size: 20px;"><b>HÀNH QUYẾT</b></span>
+								</div>
+							</div>
+								<img src="attack.jpg" decoding="async" loading="lazy" width="20" height="20">
+								<b style="color:white;">52(50+2)<p style="color:yellow;">Phạm vi tấn công ⯀</p></b>
+						</div>
+						<div style="width: 430px;">
+						<p style="color:deepskyblue;">[Khi sử dụng]<span style="color:white;"> Nếu mục tiêu có +6<span style="color: rgb(220, 0, 0);text-decoration: underline; " data-title=" Kẻ địch có X tầng hiệu ứng này khi bị tấn công sẽ bị giảm X điểm tinh thần";><img src="sinking.jpg" style="width: 20px; height:20px" decoding="async" loading="lazy"> Suy sụp</span>, +1 điểm va chạm</span></p>
+						<p style="color:deepskyblue;">[Khi sử dụng]<span style="color:white;">+1 Điểm xu cho mỗi 3 lượt<span style="color:rgb(220, 0, 0); text-decoration: underline; " data-title="Kẻ địch có X tầng hiệu ứng này khi bị tấn công sẽ bị giảm X điểm tinh thần"><img src="sinking.jpg" decoding="async" loading="lazy"style="width:20px; height:20px">Suy sụp</span><span> trên mục tiêu (tối đa 2 lần)</span></span></p>
+						<p style="color:lime;"><img src="2coinef.jpg" decoding="async" loading="lazy" width="25px" height="25px">[Khi tấn công]<span style="color:white">Gán 3 tầng</span><span style="color: rgb(220, 0, 0);text-decoration: underline; " data-title=" Kẻ địch có X tầng hiệu ứng này khi bị tấn công sẽ bị giảm X điểm tinh thần";><img src="sinking.jpg" style="width: 20px; height:20px" decoding="async" loading="lazy">Suy sụp</span></p>
+					</div>
+					</td>
+					</td>
+				</tr>
+			</tbody>
+	</table>
+	</article>
+</section>
+
+</body>
+</html>
